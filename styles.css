@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    background-image: url(./assets/backgroun11.png.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; 
+}
+
+
+main {
+    border-radius: 20px;  
+    padding: 44px 24px 23px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 130px;
+    margin-left: 650px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+
+.labels-display {
+    display: inline-block;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 40px;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 25px;
+    color: #FFFFFF;
+    
+}
+
+select, input {
+    background: #41de88;
+    border: 1px solid #41de88;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    border-radius: 20px;  
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-bottom: 24px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background:#41de88;
+    border-radius: 35px;
+    width: 150px;
+    height: 120px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 18px;
+    display: inline-flex;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 80px;
+    margin-left: 30px;
+}
+
+section {
+    border: 5px solid #41de88;
+    border-radius: 20px;
+    font-size: 19px;
+    padding: 20px;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-right: 25px;
+    color:#FFFFFF;
+    background-color: #41de88;
+    opacity: 0.9;
+}
+
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.currency {
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+}
+
+.currency-value, .currency-value-to-convert {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    color:#FFFFFF;
+}
+
+
+
+.arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 40px;
+    margin: 0 auto;  
+}
+
+input {
+    color:#FFFFFF;
+}
