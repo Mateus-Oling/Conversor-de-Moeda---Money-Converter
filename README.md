@@ -1,10 +1,14 @@
 <h1 align="center">Conversor de Moedas</h1>
 <br>
 <br>
-<h2 align="center">Projeto integrativo de HTML, CSS e JavaScript realizado como desafio final de módulo no curso de programação <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h2>
+<h2 align="center">Projeto integrativo de HTML, CSS e JavaScript realizado como projeto no curso de formação FullStack no <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h2>
 
-<p>Segue abaixo vídeo mostrando o Conversor:</p>
-<src="/assets/video.mp4">
+<p>Segue abaixo vídeo mostrando o Conversor e seu uso:</p>
+<src="/assets/video.mp4" >
+
+
+
+https://github.com/Mateus-Oling/Conversor-de-Moeda---Money-Converter/assets/135168984/ab0ce5bd-252b-451f-8861-aeaedbb80b35
 
 
 <h2>Tecnologias Utilizadas:</h2>
