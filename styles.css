@@ -9,27 +9,27 @@
 body {
     background-image: url(./assets/backgroun11.png.jpg);
     background-size: cover;
-    background-repeat:repeat;
+    aspect-ratio: 2;
+    background-position: center bottom;
+
 }
 
 
 main {
-    border-radius: 20px;
-    padding: 44px 24px 23px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 130px;
-    margin-left: 650px;
-    width: 50%;
+    margin-top: 110px;
+    margin-left: 250px;
     border-radius: 4px;
+
 }
 
 
 .labels-display {
     display: inline-block;
-    width: 400px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 40px;
@@ -39,35 +39,38 @@ main {
     line-height: 25px;
     color: #FFFFFF;
 
+
 }
 
 select,
 input {
-    background: #3252aac2;
-    border: 1px solid #3252aac2;
+    background: #3252aafd;
+    border: 1px solid #3252aafd;
     border-radius: 10px;
     font-weight: 300;
     font-size: 20px;
     line-height: 18px;
     color: #FFFFFF;
-    width: 100%;
     height: 48px;
     cursor: pointer;
     border-radius: 20px;
     margin-top: 20px;
     margin-left: 0px;
-    margin-bottom: 24px;
+    margin-bottom: 64px;
     padding: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 400px;
+    border: 1px solid;
+    border-color: #FFFFFF;
 }
 
 button {
-    background: #3252aac2;
-    border-radius: 35px;
-    width: 150px;
-    height: 120px;
+    background: #3252aafd;
+    border-radius: 25px;
+    width: 200px;
+    height: 70px;
     font-weight: 300;
     font-size: 20px;
     line-height: 18px;
@@ -79,22 +82,27 @@ button {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-right: 80px;
-    margin-left: 30px;
+    margin-right: 150px;
+    margin-left: 70px;
+    border: 1px solid;
+    border-color: #FFFFFF;
 }
 
 section {
-    border: 5px solid #3252aac2;
+    border: 5px solid #3252aafd;
     border-radius: 20px;
-    font-size: 19px;
+    font-size: 17px;
     padding: 20px;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    align-content: center;
     width: auto;
-    height: auto;
+    height: 170px;
     margin-right: 25px;
     color: #FFFFFF;
-    background-color: #3252aac2;
-    opacity: 0.9;
+    background-color: #3252aafd;
+    border: 1px solid;
+    border-color: #FFFFFF;
 }
 
 
@@ -131,6 +139,9 @@ section {
     padding: 15px;
     font-size: 40px;
     margin: 0 auto;
+       transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        margin-right: 5px;
 }
 
 input {
@@ -138,106 +149,85 @@ input {
 }
 
 
-@media screen and (max-width: 900px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1600px) {
+
+    body {
+        background-image: url(./assets/backgroun11.png.jpg);
+        background-size: cover;
+        aspect-ratio: 1.1;
+        background-position: center bottom;
+    }
+    
 
     main {
-        width: 375px;
-        border-radius: 20px;
-        margin: 0 auto 40px;
+        width: 100%;
+        margin: auto;
         padding: 44px 24px 23px;
+        border-radius: 20px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
         align-items: flex-start;
         align-content: center;
+        background-repeat: repeat-y;
+        font-size: 20px;
     }
 
     .labels-display {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 18px;
-        margin-right: 15px;
-        margin-left: 15px;
-    }
-
-    select, input {
-        border: 1px solid;
-        border-radius: 4px;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 18px;
-        width: 100%;
-        height: 48px;
-        margin-bottom: 24px;
-        padding-left: 18px;
-        cursor: pointer;
-        background-color: #3252aa;
-    }
-
-    button {
-        border-radius: 5px;
-        width: 50px;
-        height: 48px;
-        font-weight: 500;
-        font-size: 18px;
-        line-height: 18px;
-        display: flex;
-        align-items: center;
-        align-content: center;
-        flex-direction: row;
-        flex-flow: row;
-        order: 2;
-        padding: 15px 80px;
-        border: none;
-        margin-bottom: 36px;
-        cursor: pointer;
-        background-color: #3252aa;
-        margin: 0 auto;
+        font-size: 20px;
+        line-height: 14px;
+        width: auto;
+        height: auto;
+        margin-left: 5px;
     }
 
     section {
-        border: 1px solid;
-        border-radius: 20px;
-        margin-top: 36px;
-        padding: 12px;
-        display: flex;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        flex-direction: column;
-        order: 3;
-        gap: 4px;
-        flex-flow: row;
-        background-color: #3252aa;
-        margin-top: 45px;
-        margin-right: 15px;
-        margin-left: 15px;
+        margin-top: 35px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 16px;
+        width: auto;
+        height: 110px;
     }
 
-    .currency {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 18px
+    select,
+    input {
+        font-size: 18px;
+        line-height: 14px;
+        width: 120%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-bottom: 24px;
     }
 
-    .currency-value, .currency-value-to-convert {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 18px;
-        display: flex;
-        align-items: center;
+    button {
+        font-size: 16px;
+        margin-left: 85px;
+        margin-right: 10px;
+        width: 150px;
+        height: 50px;
     }
 
     .arrow {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        font-size: 40px;
-        margin: 0 auto;
         transform: rotate(-90deg);
         -webkit-transform: rotate(-90deg);
+        margin-right: 5px;
     }
-
 
 }
