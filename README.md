@@ -8,7 +8,7 @@
 
 
 
-https://github.com/Mateus-Oling/Conversor-de-Moeda---Money-Converter/assets/135168984/ab0ce5bd-252b-451f-8861-aeaedbb80b35
+https://github.com/Mateus-Oling/Conversor-de-Moeda---Money-Converter/assets/video
 
 
 <h2>Tecnologias Utilizadas:</h2>
