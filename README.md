@@ -4,11 +4,12 @@
 <h2 align="center">Projeto integrativo de HTML, CSS e JavaScript realizado como projeto no curso de formação FullStack no <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h2>
 
 <p>Segue abaixo vídeo mostrando o Conversor e seu uso:</p>
-<src="/assets/video.mp4" >
+<src="/assets/video" >
+
+https://github.com/Mateus-Oling/Conversor-de-Moeda---Money-Converter/assets/135168984/a44379a0-75df-4c4f-bfc0-498e577dbdcb
 
 
 
-https://github.com/Mateus-Oling/Conversor-de-Moeda---Money-Converter/assets/video
 
 
 <h2>Tecnologias Utilizadas:</h2>
