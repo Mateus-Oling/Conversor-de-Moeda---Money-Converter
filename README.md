@@ -1,8 +1,8 @@
 <h1 align="center">Conversor de Moedas / Money Converter</h1>
 <br>
 <br>
-<h2 align="center">Projeto integrativo de HTML, CSS e JavaScript, além de possuir design responsivo, realizado como projeto no curso de formação FullStack no <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h2>
-<h2 align="center">Integrative project involving HTML, CSS and JavaScript, besides having a responsive design, carried out as a project at the Fullstack formation course at <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h2>
+<h4 align="center">Projeto integrativo de HTML, CSS e JavaScript, além de possuir design responsivo, realizado como projeto no curso de formação FullStack no <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h4>
+<h4 align="center">Integrative project involving HTML, CSS and JavaScript, besides having a responsive design, carried out as a project at the Fullstack formation course at <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h4>
 
 <p>Segue abaixo vídeo mostrando o Conversor e seu uso / Below follows a video demonstrating the Converter and its use:</p>
 <src="/assets/video" >
