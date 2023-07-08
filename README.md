@@ -1,8 +1,8 @@
 <h1 align="center">Conversor de Moedas / Money Converter</h1>
 <br>
 <br>
-<h4 align="center">Projeto integrativo de HTML, CSS e JavaScript, além de possuir design responsivo, realizado como projeto no curso de formação FullStack no <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h4>
-<h4 align="center">Integrative project involving HTML, CSS and JavaScript, besides having a responsive design, carried out as a project at the Fullstack formation course at <a href="https://rodolfomori.com.br/devclub/">DevCLub</a> </h4>
+<p align="center">Projeto integrativo de HTML, CSS e JavaScript, além de possuir design responsivo, realizado como projeto no curso de formação FullStack no <a href="https://rodolfomori.com.br/devclub/">DevCLub</a>. Nesse projeto, é possível converter as moedas de Dólar, Euro, Libra e BitCoin para o Real. Além disso, foi consumido uma API que mantém os valores atualizados a cada 30 segundos, tendo total aplicabilidade prática. </p>
+<p align="center">Integrative project involving HTML, CSS and JavaScript, besides having a responsive design, carried out as a project at the Fullstack formation course at <a href="https://rodolfomori.com.br/devclub/">DevCLub</a>. In this project, it's possible to convert the currencies Dollar, Euro, Pound and BitCoin to Real. Besides, an API was consumed that keeps the values updated each 30 seconds, enabling this project to have total practicle applicability.</p>
 
 <p>Segue abaixo vídeo mostrando o Conversor e seu uso / Below follows a video demonstrating the Converter and its use:</p>
 <src="/assets/video" >
